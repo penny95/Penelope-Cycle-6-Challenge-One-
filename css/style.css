@@ -111,13 +111,13 @@ li
   padding: 0;}
   
 
-.navbar_scroll {
-		position: absolute;
-		overflow: scroll;
-		width: 370px;
-		height: 100%;
+.navbar_border {
+	position: absolute;
+	width: 330px;
+        height: 6780px;
+        border-right: solid;
+        border-color: black;
 }
-
 .navbar_element li:not(:first-child),
 .navbar_element li li {
 		box-shadow: inset 0 1px #c6d0da;
